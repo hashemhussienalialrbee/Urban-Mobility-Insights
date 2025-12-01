@@ -1,77 +1,83 @@
 # 🚇 Urban Mobility Insights Dashboard – Power BI
 
 ## 📌 Overview
-This interactive Power BI dashboard provides a comprehensive analysis of urban mobility behavior.  
-It showcases how citizens move across a city based on transportation mode, weather conditions, day of the week, and origin–destination patterns.
+This Power BI dashboard provides a detailed and interactive analysis of urban mobility patterns.  
+It helps understand how people move across the city based on mode of transport, weather conditions, day of the week, and trip origin/destination.
 
-The dashboard helps city planners, transportation engineers, and policy-makers understand traffic flow and improve mobility strategies.
+This dashboard is ideal for:
+- City planners  
+- Transportation analysts  
+- Policy makers  
+- Mobility researchers  
 
 ---
 
 ## 🎯 Objectives
-- Analyze how trip volume differs by:
-  - Mode of transportation
-  - Weather conditions
-  - Day of the week
-  - Origin & destination
-- Measure mobility KPIs such as:
-  - Total distance traveled  
-  - Number of trips  
-  - Average flight duration  
-  - Average speed (km/h)
-- Visualize urban travel patterns to support better decision-making.
+- Analyze total trip count and distance traveled.
+- Understand mobility behavior across different weather conditions.
+- Compare transportation modes such as car, walk, bus, taxi, bike, and scooter.
+- Explore how day-of-week affects trip volume.
+- Visualize trip patterns by origin and destination.
 
 ---
 
 ## 🛠 Tools & Skills Used
 - Power BI  
-- DAX Measures  
-- Power Query (ETL & Data Cleaning)  
-- Advanced Visuals (Waterfall, Bar Charts, KPIs)  
-- UI/UX Dashboard Design  
-- Mobility Analytics Concepts  
+- Power Query (ETL)  
+- DAX Calculations  
+- Advanced Visualizations  
+- KPI Cards  
+- Waterfall Analysis  
+- Data Modeling  
 
 ---
 
 ## 📁 Dataset
 - **Total Trips:** 2000  
-- **Distance Travelled:** 11.64K km  
-- **Flight Duration:** 1.46K (minutes/hours depending on dataset)  
-- **Average Speed:** 27.60 km  
-- **Dimensions:** Mode, Gender, DayOfWeek, Weather, Origin, Destination  
+- **Distance Travelled:** 11.64K  
+- **Flight Duration:** 1.46K  
+- **Average Speed:** 27.60 km/h  
+- **Categories:** Mode, Gender, DayOfWeek, Origin, Destination, Weather  
 
 ---
 
 ## 📷 Dashboard Preview
-> *Replace this with your actual image file name.*
 
-![Urban Mobility Dashboard](urban_mobility.png)
+![Urban Mobility Dashboard](Urban%20Mobility%20Insights.png)
 
 ---
 
 ## 🔍 Key Insights
-- 🌤️ **Weather strongly affects mobility**: Sunny days have the highest trip volume (1,166 trips).
-- 🚶 **Walking and Car modes lead total trips**:  
+- 🌤️ **Weather Impact:**  
+  Sunny days lead mobility with **1,166 trips**, while hot and windy days show the lowest volumes.
+
+- 🚗 **Trips by Mode:**  
   - Car: 860 trips  
   - Walk: 531 trips  
-- 📅 **Trips vary significantly by weekday**, especially early in the week.
-- 🚌 **Public transport modes (bus, taxi, scooter)** show smaller but stable usage patterns.
-- 🔁 **Destination–Weather combinations** reveal behavior shifts (e.g., more park trips during sunny weather).
+  - Bus: 293 trips  
+  - Taxi/Bike/Scooter: Smaller but steady usage  
+
+- 📅 **Day-of-week behavior** shows clear patterns of increase and decrease.
+
+- 🗺️ **Destination & Weather** reveals how weather influences specific locations (e.g., parks on sunny days).
 
 ---
 
 ## 🚀 Features
-- Fully interactive slicers (Gender, DayOfWeek, Mode, Origin)
-- KPI cards for distance, trips, duration, and speed
-- Waterfall charts to show increase/decrease patterns
-- Mode-based comparison visualizations
-- Clean red/white design with strong visual storytelling
+- Fully interactive slicers:
+  - Gender  
+  - Day of Week  
+  - Mode of Transport  
+  - Origin  
+- KPI cards for essential mobility metrics  
+- Waterfall charts showing increases & decreases  
+- Bar charts for comparative insights  
+- Custom red-themed UI for impact & clarity  
 
 ---
 
 ## 📦 Files Included
-- `Urban_Mobility.pbix`
-- `urban_mobility.png`
-- `urban_mobility.csv` *(if available)*
+- `Urban Mobility Insights.pbix`
+- `Urban Mobility Insights.png`
 - `README.md`
 
